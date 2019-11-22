@@ -92,7 +92,7 @@
                     </p>
                     <p class="appointment-item">
                         <label for="appointment-name">Ваше имя</label>    
-                        <input id="appointment-name" type="text" name="name" value="" placeholder="Борода>">
+                        <input id="appointment-name" type="text" name="name" value="" placeholder="Борода">
                     </p>
                     <p class="appointment-item">
                         <label for="appointment-phone">Телефон</label>
@@ -126,13 +126,24 @@
             <p>Введите логин и пароль</p>
             <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
                 <p>
+                    <label class="visually-hidden" for="user-login">Логин</label>
                     <input class="login-icon-user" type="text" name="login" placeholder="Логин">
                 </p>
                 <p>
+                    <label class="visually-hidden" for="user-password">Пароль</label>
                     <input class="login-icon-password" type="text" name="password" placeholder="Пароль">
                 </p>
+                <p class="login-password-info">
+                    <label class="login-checkbox">
+                        <input type="checkbox" name="remember" class="visually-hidden">
+                        <span class="checkbox-indicator"></span>
+                        Запомните меня
+                    </label>
+                    <a class="restore" href="#">Я забыл пароль!</a>
+                </p>
+                <button class="button" type="submit">Войти</button>
             </form>
-            <span class="modal-close"></span>
+            <button class="modal-close" type="button">Закрыть</button>
             <!--Форма для логина-->
         </section>
         <section class="modal modal-map">
