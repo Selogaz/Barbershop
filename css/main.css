@@ -191,3 +191,13 @@ a {
     color: #663d15;
 }
 
+.restore {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+    text-decoration: none;
+
+}
