@@ -201,3 +201,9 @@ a {
     text-decoration: none;
 
 }
+
+/*barbershop-item.html */
+
+.product-photo-preview {
+    list-style: none;
+}
