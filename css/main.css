@@ -1,3 +1,6 @@
+
+/*index.html*/
+
 body {
     margin:0;
     padding:0;
@@ -260,4 +263,65 @@ ul.product-photo-preview {
 
 a.breadcrumbs-current {
     color:#aba9a7;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+    text-decoration: underline;
+}
+/*catalog.html */
+
+.catalog-item a {
+    color: #000000;
+}
+
+a.button {
+    color: #ffffff;
+}
+
+.catalog-list {
+    list-style: none;
+}
+
+body ul {
+    list-style: none;
+}
+
+.page-title {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.filter legend {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.filter ul {
+    list-style: none;
+    line-height: 18px;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+    color: #663d15;
+}
+
+.filter-input:disabled + label {
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+.catalog-item {
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+
+.catalog-item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
 }

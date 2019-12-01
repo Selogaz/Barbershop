@@ -10,7 +10,7 @@
         <header class="main-header">
             <nav class="main-navigation">
                 <a class="main-header-logo" href="index.html">
-                    <img src="img/moustache_PNG45.png" width="200px" height="100px" alt="Лого барбершопа">
+                        <img src="img/logo.svg" width="111px" height="24px" alt="Лого барбершопа">
                 </a>
                 <ul class="site-navigation">
                    <li><a href="info.html">Информация</a></li>
@@ -25,7 +25,7 @@
             </nav>
         </header>
         <main class="container">
-            <h1 class="shop-title">Средства для ухода</h1>
+            <h1 class="page-title">Средства для ухода</h1>
             <ul class="breadcrumbs">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="catalog.html">Магазин</a></li>
@@ -35,21 +35,6 @@
             <section class="catalog">
                <h2 class="visually-hidden">Список средств для ухода</h2>
                <ul class="catalog-list">
-                    <li class="catalog-item">
-                        <a href="catalog-item.html">
-                            <h3>
-                                    <span class="catalog-category">Набор для путешествий</span>
-                                    <span class="catalog-item-title">"BAXTER OF CALIFORNIA"</span>
-                            </h3>
-                            <p class="catalog-item-image">
-                                    <img src="img/product-1.jpg" width="220" height="165" alt="Набор для путешествий <<BAXTER OF CALIFORNIA>>">
-                            </p>
-                            <p class="catalog-item-price">
-                                <b>2908 ₽</b>
-                                <a class="button buy-item-btn" href="#">Купить</a>
-                            </p>
-                        </a>    
-                    </li>
                     <li class="catalog-item">
                         <a href="catalog-item.html">
                             <h3>
@@ -142,14 +127,15 @@
                     </li>
                 </ul>
                 <!--пример самостоятельного кода хд-->
-                <div class="6">
+                <!--<div class="6">
                     <img src="#" alt="Набор для бритья">
                     <p>Набор для бритья<br>
                         "BAXTER OF CALIFORNIA"
                     </p>
                     <span class="catalog-price">2908 ₽</span>
                     <a class="button buy-item-btn">Купить</a>
-                </div>
+                    </div>
+                -->    
                 <ul class="pagination">
                     <li class="pagination-item"><a href="#">1</a></li>
                     <li class="pagination-item current-page"><a>2</a></li>
@@ -181,7 +167,7 @@
                                 <label for="filter-malin-goetz" checked>Malin+Goetz</label>
                             </li>
                             <li class="filter-option">
-                                <input id="filter-murrays"" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays">
+                                <input id="filter-murrays"" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" disabled>
                                 <label for="filter-murrays" checked>Murray's</label>
                             </li>
                             <li class="filter-option">
@@ -194,15 +180,15 @@
                         <legend>Группы товаров:</legend>
                         <ul>
                             <li class="filter-option">
-                                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving" checked>
+                                <input id="filter-shave" class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving" checked>
                                 <label for="filter-shave">Бритвенные принадлежности</label>
                             </li>
                             <li class="filter-option">
-                                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care">
+                                <input id="filter-hair-care" class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care">
                                 <label for="filter-hair-care">Средства для ухода</label>
                             </li>
                             <li class="filter-option">
-                                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accessories">
+                                <input id="filter-hair-care" class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accessories">
                                 <label for="filter-accessories">Аксессуары</label>
                             </li>
                         </ul>
