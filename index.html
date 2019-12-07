@@ -157,17 +157,17 @@
         </footer>
         <section class="modal modal-login">
             <h2>Личный кабинет</h2>
-            <p>Введите логин и пароль</p>
+            <p class="modal-description">Введите логин и пароль</p>
             <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
                 <p>
                     <label class="visually-hidden" for="user-login">Логин</label>
-                    <input class="login-icon-user" type="text" name="login" placeholder="Логин">
+                    <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
                 </p>
                 <p>
                     <label class="visually-hidden" for="user-password">Пароль</label>
-                    <input class="login-icon-password" type="text" name="password" placeholder="Пароль">
+                    <input class="login-icon-password" id="user-password" type="text" name="password" placeholder="Пароль">
                 </p>
-                <p class="login-password-info">
+                <p class="login-help">
                     <label class="login-checkbox">
                         <input type="checkbox" name="remember" class="visually-hidden">
                         <span class="checkbox-indicator"></span>
@@ -178,7 +178,6 @@
                 <button class="button" type="submit">Войти</button>
             </form>
             <button class="modal-close" type="button">Закрыть</button>
-            <!--Форма для логина-->
         </section>
         <section class="modal modal-map">
             <h2 class="visually-hidden">Как до нас добраться</h2>
