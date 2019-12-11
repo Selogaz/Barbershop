@@ -5,7 +5,7 @@
         <title>Barbershop "Borodinski"</title>
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">    
+        <link rel="stylesheet" href="css/mini.style.css">    
     </head>
     <body class="inner-page">
         <header class="main-header">
@@ -54,28 +54,28 @@
                                     </label>
                                 </li>
                                 <li class="filter-option">
-                                    <label for="filter-suavecito" checked>
+                                    <label class="login-checkbox" for="filter-suavecito" checked>
                                         <input id="filter-suavecito" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" checked>
                                         <span class="checkbox-indicator"></span>
                                         Suavecito
                                     </label>
                                 </li>
                                 <li class="filter-option">
-                                    <label for="filter-malin-goetz" checked>
+                                    <label class="login-checkbox" for="filter-malin-goetz" checked>
                                         <input id="filter-malin-goetz" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin-goetz">
                                         <span class="checkbox-indicator"></span>
                                         Malin+Goetz
                                     </label>
                                 </li>
                                 <li class="filter-option">
-                                    <label for="filter-murrays" checked>
-                                        <input id="filter-murrays"" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" disabled>
+                                    <label class="login-checkbox" for="filter-murrays" checked>
+                                        <input id="filter-murrays" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" disabled>
                                         <span class="checkbox-indicator"></span>
                                         Murray's
                                     </label>
                                 </li>
                                 <li class="filter-option">
-                                    <label for="filter-american-crew" checked>
+                                    <label class="login-checkbox" for="filter-american-crew" checked>
                                         <input id="filter-american-crew" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" checked>
                                         <span class="checkbox-indicator"></span>
                                         American Crew
@@ -87,23 +87,23 @@
                             <legend>Группы товаров:</legend>
                             <ul>
                                 <li class="filter-option">
-                                    <label for="filter-shave">
+                                    <label class="filter-input-radio" for="filter-shave">
                                         <input id="filter-shave" class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving" checked>
-                                        <span class="checkbox-indicator"></span>
+                                        <span class="checkmark"></span>
                                         Бритвенные принадлежности
                                     </label>
                                 </li>
                                 <li class="filter-option">
-                                    <label for="filter-hair-care">
+                                    <label class="filter-input-radio" for="filter-hair-care">
                                         <input id="filter-hair-care" class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care">
-                                        <span class="checkbox-indicator"></span>
+                                        <span class="checkmark"></span>
                                         Средства для ухода
                                     </label>
                                 </li>
                                 <li class="filter-option">
-                                    <label for="filter-accessories">
+                                    <label class="filter-input-radio" for="filter-accessories">
                                         <input id="filter-accessories" class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accessories">
-                                        <span class="checkbox-indicator"></span>
+                                        <span class="checkmark"></span>
                                         Аксессуары
                                     </label>
                                 </li>
@@ -216,16 +216,6 @@
                             </a>
                         </li>
                     </ul>
-                    <!--пример самостоятельного кода хд-->
-                    <!--<div class="6">
-                        <img src="#" alt="Набор для бритья">
-                        <p>Набор для бритья<br>
-                            "BAXTER OF CALIFORNIA"
-                        </p>
-                        <span class="catalog-price">2908 ₽</span>
-                        <a class="button buy-item-btn">Купить</a>
-                        </div>
-                    -->    
                     <ul class="pagination-list">
                         <li class="pagination-item"><a href="#">1</a></li>
                         <li class="pagination-item-current"><a>2</a></li>
@@ -233,8 +223,6 @@
                         <li class="pagination-item"><a href="#">4</a></li>
                     </ul>
                 </section>
-
-                
             </div>    
         </main>
         <footer class="main-footer">
